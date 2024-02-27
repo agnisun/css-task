@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/css/normalize.css" rel="stylesheet" />
+    <link href="/css/font.css" rel="stylesheet" />
+    <link href="/css/global.css" rel="stylesheet" />
+    <title>CSS-task</title>
+  </head>
+  <body>
+    <article class="main">
+      <img src="/img/bg.jpg" alt="" class="main__image" />
+      <section class="info">
+        <header class="info-header">
+          <hgroup class="info-header__group">
+            <h1 class="info__title">Get iintoo it today</h1>
+            <p class="info__subtitle">
+              There is no charge or obligation upon registration.
+            </p>
+          </hgroup>
+          <div class="info-header__buttons">
+            <button class="facebook">
+              <img src="/img/facebook.svg" alt="facebook" />
+              Register with Facebook
+            </button>
+            <button class="linkedin">
+              <img src="/img/linkedin.svg" alt="linkedin" />
+              Register with Linkedin
+            </button>
+          </div>
+        </header>
+        <div class="separator">
+          <span>OR</span>
+        </div>
+        <form class="info-form">
+          <div class="info-form__inputs">
+            <p>
+              <label class="info-form__label">
+                <input class="info-form__input" name="email" />
+                <span>Email</span>
+              </label>
+            </p>
+            <p>
+              <label class="info-form__label">
+                <input class="info-form__input" name="phone" />
+                <span>Phone</span>
+              </label>
+            </p>
+          </div>
+          <fieldset class="info-form__radios">
+            <legend>
+              <h2 class="info-form__title">What type of investor are you?</h2>
+              <p>Select the type of investor you are below.</p>
+            </legend>
+            <p>
+              <label>
+                <input checked readonly name="individual" type="radio" />
+                Individual
+                <span class="info-form__i">i</span>
+                <span class="info-form__details">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem architecto obcaecati id voluptas neque dignissimos
+                  deserunt at! Praesentium, dolore itaque?
+                </span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input name="individual" type="radio" />
+                Business
+                <span class="info-form__i">i</span>
+                <span class="info-form__details">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem architecto obcaecati id voluptas neque dignissimos
+                  deserunt at! Praesentium, dolore itaque?
+                </span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input name="individual" type="radio" />
+                IRA
+                <span class="info-form__i">i</span>
+                <span class="info-form__details info-form__details--last">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem architecto obcaecati id voluptas neque dignissimos
+                  deserunt at! Praesentium, dolore itaque?
+                </span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input name="individual" type="radio" />
+                Trust
+                <span class="info-form__i">i</span>
+                <span class="info-form__details info-form__details--last">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem architecto obcaecati id voluptas neque dignissimos
+                  deserunt at! Praesentium, dolore itaque?
+                </span>
+              </label>
+            </p>
+          </fieldset>
+          <fieldset class="info-form__footer">
+            <legend>
+              <label>
+                <input type="checkbox" />
+                I agree to the terms and receiving notifications from iintoo
+                <a href="#" class="info-form__anchor">View full terms</a>
+              </label>
+            </legend>
+          </fieldset>
+          <p class="info-form__button">
+            <button class="info__button" type="submit">Create account</button>
+          </p>
+        </form>
+      </section>
+    </article>
+  </body>
+</html>
